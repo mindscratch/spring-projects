@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-parent</artifactId>
+		<version>0.5.0.M6</version>
+		<relativePath>../spring-boot-parent</relativePath>
+	</parent>
+	<artifactId>spring-boot-starters</artifactId>
+	<packaging>pom</packaging>
+	<properties>
+		<main.basedir>${basedir}/..</main.basedir>
+	</properties>
+	<modules>
+		<module>spring-boot-starter</module>
+		<module>spring-boot-starter-amqp</module>
+		<module>spring-boot-starter-aop</module>
+		<module>spring-boot-starter-batch</module>
+		<module>spring-boot-starter-data-jpa</module>
+		<module>spring-boot-starter-integration</module>
+		<module>spring-boot-starter-jdbc</module>
+		<module>spring-boot-starter-jetty</module>
+		<module>spring-boot-starter-logging</module>
+		<module>spring-boot-starter-mobile</module>
+		<module>spring-boot-starter-actuator</module>
+		<module>spring-boot-starter-parent</module>
+		<module>spring-boot-starter-security</module>
+		<module>spring-boot-starter-shell-remote</module>
+		<module>spring-boot-starter-test</module>
+		<module>spring-boot-starter-tomcat</module>
+		<module>spring-boot-starter-web</module>
+		<module>spring-boot-starter-websocket</module>
+	</modules>
+</project>
